@@ -1,0 +1,33 @@
+# Ignorar ambiente virtual
+.venv/
+venv/
+ENV/
+env/
+
+# Cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Arquivos temporários
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+
+# Configs locais
+*.env
+*.sqlite3
+
+# Diretórios de build/distribuição
+build/
+dist/
+.eggs/
+*.egg-info/
+
+# IDEs/editores
+.vscode/
+.idea/
+*.swp
+*.swo
